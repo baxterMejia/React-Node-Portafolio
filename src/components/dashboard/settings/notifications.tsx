@@ -3,7 +3,6 @@
 import * as React from 'react';
 import { useForm, Controller } from 'react-hook-form';
 import {
-  Box,
   Button,
   Card,
   CardContent,
@@ -19,7 +18,6 @@ import {
   Radio,
   RadioGroup,
   Select,
-  Stack,
   Switch,
   TextField,
   Typography,
@@ -58,7 +56,6 @@ export function Notifications(): React.JSX.Element {
   const file = watch('file');
 
   const onSubmit = (data: FormValues) => {
-    console.log('Form Data:', data);
     alert('Form submitted! Check console.');
   };
 

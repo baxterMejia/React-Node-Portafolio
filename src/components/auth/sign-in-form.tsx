@@ -19,7 +19,6 @@ import { Controller, useForm } from 'react-hook-form';
 import { z as zod } from 'zod';
 
 import { paths } from '@/paths';
-import { authClient } from '@/lib/auth/client';
 import { useUser } from '@/hooks/use-user';
 import { loginUser } from '@/lib/auth/auth.service';
 import { Loader } from '@/components/common/Loader';
@@ -35,8 +34,6 @@ const defaultValues = { email: 'Johan@mejia.io', password: 'Secret1' } satisfies
 
 export function SignInForm(): React.JSX.Element {
   const router = useRouter();
-
-  const { checkSession } = useUser();
 
   const [showPassword, setShowPassword] = React.useState<boolean>();
 

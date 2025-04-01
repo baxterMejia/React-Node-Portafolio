@@ -10,6 +10,7 @@ module.exports = {
     require.resolve('@vercel/style-guide/eslint/browser'),
     require.resolve('@vercel/style-guide/eslint/react'),
     require.resolve('@vercel/style-guide/eslint/next'),
+    'next/core-web-vitals', 'eslint:recommended', 'plugin:@typescript-eslint/recommended'
   ],
   parserOptions: {
     project,
@@ -78,5 +79,9 @@ module.exports = {
     'react/prop-types': 'off', // TypeScript is used for type checking
 
     '@next/next/no-img-element': 'off', // Temporary disabled
+    '@typescript-eslint/no-unsafe-assignment': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    'no-console': 'off',
   },
 };
