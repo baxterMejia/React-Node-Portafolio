@@ -1,0 +1,60 @@
+
+📊 Crypto Dashboard - Full Stack Project
+
+Este es el Frontend de un portafolio profesional basado en criptomonedas, desarrollado con Next.js, TypeScript, Material UI (MUI) e integrado con un backend personalizado.
+
+🚀 Demo
+
+🌐 Frontend: https://portfolio-nextjs.onrender.com
+🔗 Backend API: https://api-bitcointest.onrender.com/api
+
+🛠️ Stack Tecnológico
+
+- Next.js 14+
+- React 18+
+- TypeScript
+- Material UI (MUI 5)
+- Axios
+- React Hook Form + Zod
+- Autenticación con JWT
+
+🌐 Funcionalidades
+
+- Login seguro con JWT
+- Dashboard con datos reales de Bitcoin desde CoinGecko API
+- Gráficas de máximos y mínimos mensuales
+- Distribución de mercado
+- Formularios avanzados con carga de archivos
+- Estados de carga y guards de sesión
+
+⚙️ Variables de entorno
+
+Crea un archivo `.env.local` en la raíz y añade:
+
+NEXT_PUBLIC_API_URL=https://api-bitcointest.onrender.com/api
+
+📥 Instalación
+
+git clone https://github.com/baxterMejia/portfolio-nextjs.git
+cd portfolio-nextjs
+npm install
+npm run dev
+
+Accede a http://localhost:3000
+
+✅ Scripts Disponibles
+
+- npm run dev → Ejecuta el servidor en modo desarrollo
+- npm run build → Crea el build de producción
+- npm run start → Inicia el servidor en producción
+
+🔐 Credenciales de prueba
+
+Email: Johan@mejia.io
+Password: Secret1
+
+📌 Autor
+
+Johan Sebastian Mejía Carmona
+Full Stack Software Developer
+LinkedIn: https://www.linkedin.com/in/johanmejia
